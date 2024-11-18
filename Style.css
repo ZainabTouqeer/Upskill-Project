@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+    font-family: 'Arial', sans-serif;
+    background-color: grey;
+    color: white;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #logo {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+  }
+  
+  .nav-items {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-items li {
+    margin: 0 15px;
+  }
+  
+  .nav-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .nav-items a:hover{
+    background-color: red;
+    border-radius: 50px;
+  }
+  
+  .btn {
+    font-family: 'Roboto', sans-serif;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .btn:hover{
+    transform: scale(1.4);
+  }
+
+  
+  .btn-contact {
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    background-color: red;
+    color: white;
+    border-radius: 50px ;
+    border: none;
+    font-size: 16px ;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+   header nav button:hover{
+     transform: scale(1.4);
+   }
+  
+  .content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    align-items: center;  
+    padding: 20px;
+  }
+  .text-section {
+    text-align: left;
+    margin-left: 30px;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .video-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 800px;
+  }
+  
